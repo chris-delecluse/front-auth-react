@@ -1,11 +1,11 @@
 import React from "react";
 import SpanError from "../../../components/SpanError";
-import {signInStyle} from "./signIn.style";
+import {signInCss} from "./signIn.css";
 
-const signInConfig = {
+const config = {
     input: [
         {
-            style: signInStyle.input,
+            style: signInCss.input,
             placeholder: 'Email',
             type: 'email',
             register: 'email',
@@ -24,4 +24,4 @@ const signInConfig = {
     ]
 }
 
-export default signInConfig;
+export default config;

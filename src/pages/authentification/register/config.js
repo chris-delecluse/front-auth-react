@@ -1,15 +1,15 @@
 import React from "react";
-import registerStyle from "./register.style";
+import registerCss from "./register.css";
 import SpanError from "../../../components/SpanError";
 
 const regexText = /^[a-zA-Z]{3,20}$/
 const regexEmail = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
 const regexPassword = /^(?=.*[0-9])[a-zA-Z0-9!@#$%^&*]{5,16}$/
 
-const registerConfig = {
+const config = {
     inputs: [
         {
-            style: registerStyle.grid.firstname,
+            style: registerCss.grid.firstname,
             placeholder: 'Firstname',
             type: 'text',
             register: 'firstname',
@@ -20,7 +20,7 @@ const registerConfig = {
                                         value={'Mini 4 letters no symbol'}/>),
         },
         {
-            style: registerStyle.grid.lastname,
+            style: registerCss.grid.lastname,
             placeholder: 'Lastname',
             type: 'text',
             register: 'lastname',
@@ -31,7 +31,7 @@ const registerConfig = {
                                         value={'Mini 4 letters no symbol'}/>),
         },
         {
-            style: registerStyle.grid.email,
+            style: registerCss.grid.email,
             placeholder: 'Email',
             type: 'email',
             register: 'email',
@@ -44,7 +44,7 @@ const registerConfig = {
                            value={'Example: helloWord@gmail.com'}/>),
         },
         {
-            style: registerStyle.grid.password,
+            style: registerCss.grid.password,
             placeholder: 'Password',
             type: 'password',
             register: 'password',
@@ -55,7 +55,7 @@ const registerConfig = {
                                         value={'Example: 1qwerty'}/>),
         },
         {
-            style: registerStyle.grid.confirmPassword,
+            style: registerCss.grid.confirmPassword,
             placeholder: 'Confirm password',
             type: 'password',
             register: 'confirmPassword',
@@ -68,4 +68,4 @@ const registerConfig = {
     ]
 }
 
-export default registerConfig;
+export default config;

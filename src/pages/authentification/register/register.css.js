@@ -1,4 +1,4 @@
-const registerStyle = {
+const registerCss = {
     formChildrenDiv: {
         color: '#FFF',
         display: 'grid',
@@ -38,4 +38,4 @@ const registerStyle = {
     }
 }
 
-export default registerStyle;
+export default registerCss;

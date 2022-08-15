@@ -1,4 +1,4 @@
-const signInStyle = {
+const signInCss = {
     stackBox: {
         marginBlockEnd: '85px',
         position: 'relative',
@@ -25,4 +25,4 @@ const signInStyle = {
     }
 }
 
-export {signInStyle}
+export {signInCss}

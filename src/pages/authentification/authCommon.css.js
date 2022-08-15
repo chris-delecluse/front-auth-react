@@ -1,15 +1,10 @@
-import background from "../../assets/img/login-bg.jpg";
-
-const authCommonStyle = {
+const authCommonCss = {
     container: {
-        fontFamily: 'roboto',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
         flexDirection: 'column',
-        minHeight: '100vh',
-        backgroundImage: `url(${background})`,
-        backgroundSize: 'cover'
+        minHeight: '100vh'
     },
     form: {
         padding: '100px 70px 40px 70px',
@@ -17,7 +12,7 @@ const authCommonStyle = {
         flexDirection: 'column',
         boxShadow: '1px 1px 3px #FFF',
         borderRadius: '7px',
-        backdropFilter: 'blur(25px)'
+        backdropFilter: 'blur(50px)'
     },
     title: {
         fontFamily: 'roboto',
@@ -29,7 +24,7 @@ const authCommonStyle = {
         boxShadow: '1px 1px 3px #FFF',
         borderRadius: '8px',
         zIndex: 2,
-        backdropFilter: 'blur(25px)'
+        backdropFilter: 'blur(50px)'
     },
     p: {
         marginTop: '60px',
@@ -60,4 +55,4 @@ const authCommonStyle = {
     }
 }
 
-export default authCommonStyle;
+export default authCommonCss;

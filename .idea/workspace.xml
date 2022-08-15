@@ -1,16 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="88772953-3959-4e42-a012-80a591dc152a" name="Changes" comment="" />
+    <list default="true" id="88772953-3959-4e42-a012-80a591dc152a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/login-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/login-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/authentification/authCommon.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/authentification/authCommon.css.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/authentification/register/Register.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/authentification/register/Register.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/authentification/register/register.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/authentification/register/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/authentification/register/register.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/authentification/register/register.css.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/authentification/sign-in/SignIn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/authentification/sign-in/SignIn.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/authentification/sign-in/signIn.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/authentification/sign-in/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/authentification/sign-in/signIn.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/authentification/sign-in/signIn.css.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/Home.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2CdopjDctEyVsji2bdaUy5XZr2Y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,10 +51,20 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/diwacode/Documents/dev/beCode/epaturage-fullstack-project/front-auth-react&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/icons" />
+      <recent name="$PROJECT_DIR$/src/components/layout" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -35,11 +74,29 @@
       <option name="presentableId" value="Default" />
       <updated>1659142007264</updated>
       <workItem from="1659142008344" duration="16000" />
-      <workItem from="1659142038440" duration="166000" />
+      <workItem from="1659142038440" duration="972000" />
+      <workItem from="1659177841310" duration="8282000" />
+      <workItem from="1659460209095" duration="4203000" />
+      <workItem from="1659490633296" duration="25780000" />
+      <workItem from="1660051565458" duration="2028000" />
+      <workItem from="1660055984977" duration="7499000" />
+      <workItem from="1660202096355" duration="7450000" />
+      <workItem from="1660507340310" duration="18072000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
