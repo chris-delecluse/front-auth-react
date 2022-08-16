@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const registerUser = async (register) => {
+const registerUserAxios = async (register) => {
     const {
         firstname,
         lastname,
@@ -16,4 +16,4 @@ const registerUser = async (register) => {
     })
 }
 
-export default registerUser;
+export default registerUserAxios;

@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const getConnected = async (signIn) => {
+export const signInUserAxios = async (signIn) => {
     const {
         email, password
     } = signIn

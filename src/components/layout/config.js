@@ -2,15 +2,11 @@ const config = {
     link: [
         {
             to: '/',
-            text: 'Home'
+            text: 'Home',
         },
         {
             to: '/sign-in',
-            text: 'Sign-in'
-        },
-        {
-            to: '/register',
-            text: 'Register'
+            text: 'Sign-in',
         },
     ],
 }

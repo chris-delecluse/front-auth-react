@@ -5,6 +5,10 @@ import Home from "./pages/home/Home";
 import SignIn from "./pages/authentification/sign-in/SignIn";
 import Register from "./pages/authentification/register/Register";
 import Layout from "./components/layout/Layout";
+import User from "./pages/user/User";
+import NotFound from "./pages/404-notFound/NotFound";
+import PrivateRoute from "./routes/PrivateRoute";
+import Logout from "./pages/authentification/Logout";
 
 function App() {
     return (
@@ -12,9 +16,14 @@ function App() {
             <BrowserRouter>
                 <Routes>
                     <Route path='/' element={<Layout/>}>
-                        <Route index element={<Home/>}/>
+                        <Route element={<PrivateRoute/>}>
+                            <Route index element={<Home/>}/>
+                            <Route path='/logout' element={<Logout/>}/>
+                        </Route>
                         <Route path='/sign-in' element={<SignIn/>}/>
                         <Route path='/register' element={<Register/>}/>
+                        <Route path='/user/:id' element={<User/>}/>
+                        <Route path='/*' element={<NotFound/>}/>
                     </Route>
                 </Routes>
             </BrowserRouter>

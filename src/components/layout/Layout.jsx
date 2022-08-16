@@ -10,8 +10,8 @@ const Layout = () => {
         <div style={layoutCss.container}>
             <header style={layoutCss.header}>
                 <nav style={layoutCss.nav}>
-                    {config.link.map(link => {
-                        return (<CustomNavLink to={link.to}>{link.text}</CustomNavLink>)
+                    {config.link.map((link, key) => {
+                        return (<CustomNavLink key={key} to={link.to}>{link.text}</CustomNavLink>)
                     })}
                 </nav>
             </header>

@@ -5,9 +5,9 @@ import {useForm} from "react-hook-form";
 import {ErrorMessage} from '@hookform/error-message';
 import Button from "../../../components/Button";
 import config from "./config";
-import authCommonCss from "../authCommon.css";
+import commonCss from "../common.css";
 import registerCss from "./register.css";
-import registerUser from "../../../api/register.axios";
+import registerUserAxios from "../../../api/register.axios";
 import {useNavigate} from "react-router";
 
 const Register = () => {
@@ -17,7 +17,7 @@ const Register = () => {
 
     const onSubmit = async (data) => {
         try {
-            const res = await registerUser(data)
+            const res = await registerUserAxios(data)
 
             if (res.status === 201) {
                 console.log(res)
@@ -30,9 +30,9 @@ const Register = () => {
     }
 
     return (
-        <Stack style={authCommonCss.container}>
-            <h1 style={authCommonCss.title}>Sign Up</h1>
-            <form style={authCommonCss.form}
+        <Stack style={commonCss.container}>
+            <h1 style={commonCss.title}>Sign Up</h1>
+            <form style={commonCss.form}
                   onSubmit={handleSubmit(onSubmit)}>
                 {!userAlreadyExist ? (<p></p>) : (
                     <p style={registerCss.registerFormApiMainError}>{userAlreadyExist}</p>)}
@@ -59,13 +59,13 @@ const Register = () => {
                         )
                     })}
                 </div>
-                <Button customeStyle={authCommonCss.button}
+                <Button customStyle={commonCss.button}
                         value={'Sign Up'}
                         type={'submit'}
                 />
-                <p style={authCommonCss.p}>You have a account ?
+                <p style={commonCss.p}>You have a account ?
                     <Link to='/sign-in'>
-                        <span style={authCommonCss.span}> sign-In here</span>
+                        <span style={commonCss.span}> sign-In here</span>
                     </Link>
                 </p>
             </form>

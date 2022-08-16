@@ -1,27 +1,25 @@
-const authCommonCss = {
+const commonCss = {
     container: {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
         flexDirection: 'column',
-        minHeight: '100vh'
+        minHeight: '90vh'
     },
     form: {
         padding: '100px 70px 40px 70px',
         display: 'flex',
         flexDirection: 'column',
-        boxShadow: '1px 1px 3px #FFF',
         borderRadius: '7px',
         backdropFilter: 'blur(50px)'
     },
     title: {
         fontFamily: 'roboto',
-        margin: '0 0 -25px 0',
+        margin: '0 0 -35px 0',
         padding: '1px 30px',
         backgroundColor: 'inherit',
         fontSize: '35px',
         color: '#FFF',
-        boxShadow: '1px 1px 3px #FFF',
         borderRadius: '8px',
         zIndex: 2,
         backdropFilter: 'blur(50px)'
@@ -55,4 +53,4 @@ const authCommonCss = {
     }
 }
 
-export default authCommonCss;
+export default commonCss;
