@@ -4,7 +4,7 @@ const commonCss = {
         justifyContent: 'center',
         alignItems: 'center',
         flexDirection: 'column',
-        minHeight: '90vh'
+        minHeight: '90vh',
     },
     form: {
         padding: '100px 70px 40px 70px',

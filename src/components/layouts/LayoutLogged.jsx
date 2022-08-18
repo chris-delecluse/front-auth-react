@@ -2,18 +2,21 @@ import React from 'react';
 import {Outlet} from "react-router";
 import CustomNavLink from "../CustomNavLink";
 import layoutCss from "./layout.css";
-import config from "./config";
 import '../../styles/reset.css'
 
-const Layout = () => {
+const LayoutLogged = (props) => {
+    const logout = () => {
+        if (props.token) props.removeToken("accessToken")
+    }
+
     return (
         <div style={layoutCss.container}>
             <header style={layoutCss.header}>
                 <nav style={layoutCss.nav}>
-                    {config.link.map((link, key) => {
-                        return (<CustomNavLink key={key} to={link.to}>{link.text}</CustomNavLink>)
-                    })}
+                    <CustomNavLink to={'/'}>Home</CustomNavLink>
+                    <button style={layoutCss.logout} onClick={logout}>Logout</button>
                 </nav>
+
             </header>
 
             <main>
@@ -23,4 +26,4 @@ const Layout = () => {
     );
 };
 
-export default Layout;
+export default LayoutLogged;

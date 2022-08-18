@@ -6,7 +6,7 @@ const registerCss = {
         gridTemplateRows: 'repeat(5, 1fr)',
         gap: '40px'
     },
-    registerFormApiMainError : {
+    registerFormApiMainError: {
         position: 'absolute',
         top: '40px',
         left: '165px',
@@ -23,9 +23,9 @@ const registerCss = {
         email: {
             display: 'flex',
             justifyContent: 'center',
-            alignItems : 'center',
+            alignItems: 'center',
             gridColumn: '1 / span 2',
-            gridRow : '2 / span 2',
+            gridRow: '2 / span 2',
         },
         password: {
             gridColumn: '1',

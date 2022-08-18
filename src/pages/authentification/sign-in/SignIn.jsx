@@ -8,14 +8,12 @@ import {signInUserAxios} from "../../../api/signIn.axios";
 import {useNavigate} from "react-router";
 import {ErrorMessage} from '@hookform/error-message';
 import commonCss from "../common.css";
-import {Cookies, useCookies} from "react-cookie";
 import {config} from "./config";
 import refreshTokenAxios from "../../../api/refreshToken.axios";
 
 
-const SignIn = () => {
+const SignIn = (props) => {
     const navigate = useNavigate()
-    const [cookie, setCookie] = useCookies(["accessToken"])
     const [connectionError, setConnectionError] = useState()
     const {register, handleSubmit, formState: {errors}} = useForm()
 
@@ -40,7 +38,7 @@ const SignIn = () => {
                 const refreshToken = await res.data.refreshToken
                 const expireIn = new Date(res.data.expireIn).getTime()
 
-                setCookie("accessToken", refreshToken, {
+                props.setCookie("accessToken", refreshToken, {
                     sameSite: true,
                     secure: true,
                     maxAge: expireIn

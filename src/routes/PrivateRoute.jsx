@@ -2,11 +2,15 @@ import React from 'react';
 import {Navigate, Outlet} from "react-router-dom";
 import {useCookies} from "react-cookie";
 
-const PrivateRoute = () => {
-    let [cookie, setCookie] = useCookies(["accessToken"])
+const PrivateRoute = (props) => {
+    const isLogged = (cookie) => {
+        return !!cookie;
+    }
+
     return (
-        (cookie.accessToken) ? <Outlet/> : <Navigate to='/sign-in'/>
+        isLogged(props.token) ? <Outlet/> : <Navigate to='/sign-in'/>
     )
 };
+
 
 export default PrivateRoute;

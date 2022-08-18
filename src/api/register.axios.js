@@ -11,7 +11,7 @@ const registerUserAxios = async (register) => {
     return await axios.post('http://localhost:3000/api/register', {
         firstname: firstname,
         lastname: lastname,
-        email : email,
+        email: email,
         password: password
     })
 }

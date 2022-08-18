@@ -3,7 +3,6 @@ import Button from "../../components/Button";
 import {Link} from "react-router-dom";
 import notFoundCss from "./notFound.css"
 import DotFalling from "../../components/DotFalling";
-import {useCookies} from "react-cookie";
 
 const NotFound = () => {
     return (
